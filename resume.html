@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume with Profile Photo</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .pro {
+            padding-right:80% ;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 14px;
+            text-align: center;
+            position: relative;
+
+        }
+
+        header .profile-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 4px solid #745151;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        header 
+        header h1 {
+            margin: 70px 0 10px;
+            font-size: 28px;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 16px;
+            font-weight: 300;
+        }
+        header nav {
+          padding-left: 80%;
+        }
+
+        section {
+            padding: 20px;
+            border-bottom: 1px solid #e6e6e6;
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: #007BFF;
+            margin-bottom: 10px;
+            border-left: 4px solid #007BFF;
+            padding-left: 10px;
+        }
+
+        .info {
+            margin: 10px 0;
+        }
+
+        .info p {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+
+        .info strong {
+            display: inline-block;
+            width: 150px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .skills span {
+            display: inline-block;
+            background-color: #2e3f51;
+            color: rgb(150, 123, 123);
+            padding: 5px 15px;
+            border-radius: 15px;
+            font-size: 14px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #b8c5d2;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+          <h1>RESUME</h1>
+          <h2>Profile</h2>
+          <nav>
+            <a href="index.html">Home</a>
+            <a href="biodata.html">Bio Data</a>
+          </nav>
+            <div class="profile-photo">
+                <img src="./WhatsApp Image 2024-12-19 at 19.15.27_3908292a.jpg">
+            </div>
+        </header>
+
+        <!-- Professional Summary -->
+        <section>
+            <h2>Professional Summary </h2>
+            <div class="info">
+                <p> Dedicated software developer , building and optimizing web solutions
+                    for diverse industries. Proficient in delivering high-quality, scalable applications and collaborating with
+                    cross-functional teams to achieve business objectives.
+                     </p>
+            </div>
+        </section>
+
+        <!-- Professional Details Section -->
+        <section>
+            <h2 class="section-title">Work Experience</h2>
+            <div class="content">
+                <p>Intership in college with thatextra courses </p>
+                <ul>
+                    <li>Designed and implemented scalable APIs using Node.js and Express.</li>
+                    <li>Improved application performance by optimizing database queries.</li>
+                    <li>Collaborated with UI/UX teams to create responsive web interfaces.</li>
+                </ul>
+            </div>
+
+
+        </section>
+
+        <!-- Education Section -->
+        <section>
+            <h2>Education</h2>
+            <div class="info">
+                <p><strong>Degree:</strong> Bachelor of Science in Computer Science</p>
+                <p><strong>Institution:</strong> City engineering college</p>
+                <p><strong>Year:</strong> 2026</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section>
+            <h2>Skills</h2>
+            <div class="skills">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>React</span>
+                <span>Node.js</span>
+                <span>Python</span>
+                <span>SQL</span>
+                <span>Git & GitHub</span>
+                <span>Team Collaboration</span>
+                <span>Problem Solving</span>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        © 2024 John Doe. All rights reserved.
+    </footer>
+</body>
+
+</html>
